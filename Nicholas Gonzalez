@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Gonzalez - Multi-Media Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .certificates {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .certificate {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .certificate img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nicholas Gonzalez - Multi-Media Artist</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>My name is Nicholas Gonzalez, and I have been a multi-media artist for 15 years. I create music, write a 7-part series about a princess and her knight, work on both a role-playing game and a fighting game, and am in the process of creating a manga and an animated show.</p>
+    </section>
+    <section>
+        <h2>Certificates</h2>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="music_certificate_placeholder.jpg" alt="Music Certificate">
+                <p>Music Creation</p>
+            </div>
+            <div class="certificate">
+                <img src="writing_certificate_placeholder.jpg" alt="Writing Certificate">
+                <p>Writing - 7 Part Series</p>
+            </div>
+            <div class="certificate">
+                <img src="rpg_certificate_placeholder.jpg" alt="RPG Development Certificate">
+                <p>Role-Playing Game Development</p>
+            </div>
+            <div class="certificate">
+                <img src="fighting_game_certificate_placeholder.jpg" alt="Fighting Game Development Certificate">
+                <p>Fighting Game Development</p>
+            </div>
+            <div class="certificate">
+                <img src="manga_certificate_placeholder.jpg" alt="Manga Creation Certificate">
+                <p>Manga Creation</p>
+            </div>
+            <div class="certificate">
+                <img src="animation_certificate_placeholder.jpg" alt="Animation Certificate">
+                <p>Animation Creation</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
